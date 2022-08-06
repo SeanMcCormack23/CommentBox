@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Comment Box</title>
+</head>
+<body>
+  <header>
+    <h1>The Comment Box</h1>
+  </header>
+
+  <section>
+    <div id="container">
+    <form id="commentArea" onclick="return displayComment()">
+      <label for="fullName">Name:</label><br>
+      <input type="text" name="fullName"><br>
+      <label for="email">Email Address:</label><br>
+      <input type="text" name="email"><br>
+      <label for="textBox">Comments:</label><br>
+      <textarea name="textBox" id="textBox" rows="4" cols="40"></textarea><br>
+      <span id="charCount">140/140</span><br>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </div>
+
+  <div id="result">
+    <p id="commentContents">
+      Comment will go here
+    </p>
+  </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

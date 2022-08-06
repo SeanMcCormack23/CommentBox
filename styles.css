@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+}
+header {
+  text-align: center;
+  text-decoration: underline;
+  margin: 1rem 0;
+}
+div#container {
+  text-align: center;
+}
+form {
+  padding: 0.5rem;
+  border: 1px solid;
+  display: inline-block;
+}
+label {
+  margin: 0.5rem;
+}
+input, textarea{
+  margin: 0.5rem 0;
+}
+#submit {
+  padding: 0.5rem 0.3rem;
+  font-size: 1.5rem;
+}
+div#result {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
